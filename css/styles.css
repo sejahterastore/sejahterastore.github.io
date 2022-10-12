@@ -11313,10 +11313,10 @@ p {
   }
 }
 .btn-xl {
-  padding: 0.25rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.100rem;
-  font-weight: 300;
+  font-size:0.900rem;
+  font-weight: 200;
 }
 
 .btn-social {
