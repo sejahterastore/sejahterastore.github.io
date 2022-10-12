@@ -18,6 +18,14 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/testi.css" rel="stylesheet" />
 
+         <!-- notif-->
+         <link href="css/notif.css" rel="stylesheet" />
+        <link rel="stylesheet" href="URL menuju .css anda"/>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"  >
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="url menuju .js anda"></script>
+         <!-- notif-->
+
         <!-- Facebook Pixel Code -->
         <script>
             !function(f,b,e,v,n,t,s)
@@ -39,6 +47,62 @@
         <!-- End Facebook Pixel Code -->
 
         <meta name="facebook-domain-verification" content="6so0rbh4jygl1w3gm6cv91fzpm73vv" />
+        
+        <!--notifJS-->
+        <script type="text/javascript">   
+            var r_text = new Array ();
+            r_text[0] = "Nina";
+            r_text[1] = "Sasa";
+            r_text[2] = "Cika";
+            r_text[3] = "Ani";
+            r_text[5] = "Wina";
+            r_text[4] = "Putri";
+            r_text[6] = "Ara";
+            r_text[7] = "Muliani";
+            r_text[8] = "Ninin Aini";
+            r_text[9] = "Sukma";
+            r_text[10] = "Mona";
+            r_text[11] = "Ijah";
+            r_text[12] = "Siti";
+            
+            
+                var r_map = new Array ();
+            r_map[0] = "https://blogger.googleusercontent.com/img/a/AVvXsEinQVMeH1-MN58zL12oY1PYNPaR36OpqdtPbfiQphz4ErHangfp43QOGuPrfp6PIp7mH29epdCQDkbs6VlAtqfx30_gaD2bS7eaxJGqyZ3dbjrMPeOXocyUxrSKL26JJR-dFRk7QRIYbV4Wk3OZS_UpZ4QLpeKKz90wisAY4bDDBTQDYKZDqVNvRw";
+            r_map[1] = "https://blogger.googleusercontent.com/img/a/AVvXsEinQVMeH1-MN58zL12oY1PYNPaR36OpqdtPbfiQphz4ErHangfp43QOGuPrfp6PIp7mH29epdCQDkbs6VlAtqfx30_gaD2bS7eaxJGqyZ3dbjrMPeOXocyUxrSKL26JJR-dFRk7QRIYbV4Wk3OZS_UpZ4QLpeKKz90wisAY4bDDBTQDYKZDqVNvRw";
+            r_map[2] = "https://blogger.googleusercontent.com/img/a/AVvXsEinQVMeH1-MN58zL12oY1PYNPaR36OpqdtPbfiQphz4ErHangfp43QOGuPrfp6PIp7mH29epdCQDkbs6VlAtqfx30_gaD2bS7eaxJGqyZ3dbjrMPeOXocyUxrSKL26JJR-dFRk7QRIYbV4Wk3OZS_UpZ4QLpeKKz90wisAY4bDDBTQDYKZDqVNvRw";
+            r_map[4] = "https://blogger.googleusercontent.com/img/a/AVvXsEinQVMeH1-MN58zL12oY1PYNPaR36OpqdtPbfiQphz4ErHangfp43QOGuPrfp6PIp7mH29epdCQDkbs6VlAtqfx30_gaD2bS7eaxJGqyZ3dbjrMPeOXocyUxrSKL26JJR-dFRk7QRIYbV4Wk3OZS_UpZ4QLpeKKz90wisAY4bDDBTQDYKZDqVNvRw";
+            r_map[5] = "https://blogger.googleusercontent.com/img/a/AVvXsEinQVMeH1-MN58zL12oY1PYNPaR36OpqdtPbfiQphz4ErHangfp43QOGuPrfp6PIp7mH29epdCQDkbs6VlAtqfx30_gaD2bS7eaxJGqyZ3dbjrMPeOXocyUxrSKL26JJR-dFRk7QRIYbV4Wk3OZS_UpZ4QLpeKKz90wisAY4bDDBTQDYKZDqVNvRw";
+            r_map[6] = "https://blogger.googleusercontent.com/img/a/AVvXsEinQVMeH1-MN58zL12oY1PYNPaR36OpqdtPbfiQphz4ErHangfp43QOGuPrfp6PIp7mH29epdCQDkbs6VlAtqfx30_gaD2bS7eaxJGqyZ3dbjrMPeOXocyUxrSKL26JJR-dFRk7QRIYbV4Wk3OZS_UpZ4QLpeKKz90wisAY4bDDBTQDYKZDqVNvRw";
+            
+            
+            var r_product = new Array ();
+            r_product[0] = "Pakaian Model 1 Stelan";
+            r_product[1] = "Pakaian Model 7 Stelan";
+            r_product[2] = "Pakaian Model 5 Stelan";
+            r_product[3] = "Pakaian Model 1 Stelan";
+            r_product[4] = "Pakaian Model 11 Stelan";
+            r_product[5] = "Pakaian Model 12 Stelan";
+            r_product[6] = "Pakaian Model 3 Stelan";
+            r_product[7] = "Pakaian Model 2 Stelan";
+         setInterval(function(){ $(".custom-social-proof").stop().slideToggle('slow'); }, 5000);
+          $(".custom-close").click(function() {
+            $(".custom-social-proof").stop().slideToggle('slow');
+          });
+            setInterval(function(){    
+                var myNumber = Math.floor(7*Math.random());
+                $("#map1").attr("src",r_map[myNumber]);
+                 $('#country').text(r_text[myNumber]);
+    
+                  $('#product').text(r_product[Math.floor(7*Math.random())]);
+                 var timeVal = Math.floor(7*Math.random());
+         
+                 $('#time').text(timeVal);
+             
+              
+         //console.log(timeVal); 
+     }, 6000);
+     </script>
+     <!--notifJS-->
 
 
     </head>
@@ -954,7 +1018,28 @@
             </noscript>
         <!-- End Facebook Pixel Code -->
 
-        
+        <!-- notifffffffff -->
 
+        <section class="custom-social-proof">
+            <div class="custom-notification">
+              <div class="custom-notification-container">
+                <div class="custom-notification-image-wrapper">
+                  <img id="map1" src="https://blogger.googleusercontent.com/img/a/AVvXsEinQVMeH1-MN58zL12oY1PYNPaR36OpqdtPbfiQphz4ErHangfp43QOGuPrfp6PIp7mH29epdCQDkbs6VlAtqfx30_gaD2bS7eaxJGqyZ3dbjrMPeOXocyUxrSKL26JJR-dFRk7QRIYbV4Wk3OZS_UpZ4QLpeKKz90wisAY4bDDBTQDYKZDqVNvRw" style="width: 50px; height: 50px">
+                </div>
+                <div class="custom-notification-content-wrapper">
+                  <p class="custom-notification-content">
+                    Agan <span id="country">Selly</span><br>baru saja membeli <span id="product"> Pakaian Model 8 Stelan/span>
+                    <small>
+                    
+                      <span id="time">1</span> minutes ago &nbsp; 
+                      <i class="fa fa-check-circle"></i> Completed by <a class="poweredby" href="https://sejahterastore.github.io/" target="_blank">Sejahtera Store</a>
+                    </small>
+                  </p>
+                </div>
+              </div>
+              <div class="custom-close"></div>
+            </div>
+          </section>
+          <!-- notifffffffff -->
     </body>
 </html>
